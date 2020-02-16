@@ -11,6 +11,7 @@ taxonomies = [
     {name = "series", rss = true},
 ]
 theme = "mikoto"
+extra_syntaxes = ["syntaxes"]
 
 [extra]
 author = "Aster"
@@ -30,6 +31,6 @@ aplayer_background_id = "82260016"
 live2d_enbale = true
 
 mathjax_enable = true
-# mathjax_cdn = ""
+# mathjax_cdn = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
 katex_enalbe = false
-# katex_cdn = ""
+# katex_cdn = "https://cdn.jsdelivr.net/npm/katex@latest"
