@@ -10,25 +10,26 @@ taxonomies = [
     {name = "tags", rss = true},
     {name = "series", rss = true},
 ]
+theme = "mikoto"
 
 [extra]
 author = "Aster"
 mikoto_title = "Mikoto"
-mikoto_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/categories", name = "Categories"},
-    {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "$BASE_URL/series", name = "Series"},
-    {url = "$BASE_URL/about", name = "About"},
-]
+
+# comment `enable` to close the plugin
 
 aplayer_enable = true
-aplayer_cdn_js = ""
-aplayer_cdn_css = ""
-aplayer_cdn_meting = ""
+# aplayer_cdn_js = ""
+# aplayer_cdn_css = ""
+# aplayer_cdn_meting = ""
 aplayer_background = true
 aplayer_background_server = "netease"
 aplayer_background_type = "album"
 aplayer_background_id = "82260016"
 
 live2d_enbale = true
+
+mathjax_enable = true
+# mathjax_cdn = ""
+katex_enalbe = false
+# katex_cdn = ""

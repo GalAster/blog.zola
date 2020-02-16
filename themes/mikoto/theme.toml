@@ -1,0 +1,42 @@
+name = "mikoto"
+description = "A robust, elegant dark theme"
+license = "MIT"
+homepage = ""
+min_version = "0.8.0"
+demo = ""
+
+[author]
+name = "Aster"
+homepage = ""
+
+[original]
+name = "Vincent Prouillet"
+homepage = "https://www.vincentprouillet.com"
+repo = "https://github.com/getzola/even"
+
+
+[extra]
+mikoto_title = "Mikoto"
+mikoto_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/series", name = "Series"},
+    {url = "$BASE_URL/about", name = "About"},
+]
+
+aplayer_enable = false
+aplayer_cdn_js = ""
+aplayer_cdn_css = ""
+aplayer_cdn_meting = ""
+aplayer_background = false
+aplayer_background_server = "netease"
+aplayer_background_type = "album"
+aplayer_background_id = "82260016"
+
+live2d_enbale = false
+
+mathjax_enable = false
+mathjax_cdn = ""
+katex_enalbe = false
+katex_cdn = ""
