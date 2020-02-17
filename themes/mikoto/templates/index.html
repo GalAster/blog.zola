@@ -16,6 +16,7 @@
     {% endif %}
 
     {% block js %}
+    <script src="{{ get_url(path="basic.js") }}" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
     {{post_macros::mathjax_load(link = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js")}}
     {#post_macros::katex_load(link = "https://cdn.jsdelivr.net/npm/katex@latest")#}
@@ -27,7 +28,7 @@
     {% endif %}
 
     {% if config.extra.live2d_enable %}
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script src="{{ get_url(path="lib/live2d.js") }}" ></script>
     {% endif %}
 
 
@@ -139,8 +140,7 @@
 </div>
 
 {% block js_body %}
-<script type="text/javascript" src="{{ get_url(path="even.js", trailing_slash=false) }}" ></script>
-      {% endblock js_body %}
+<script type="text/javascript" src="{{ get_url(path="lib/init.js", trailing_slash=false) }}" ></script>
+{% endblock js_body %}
     </body>
-
 </html>

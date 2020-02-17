@@ -1,3 +1,2 @@
-# Mikoto
+# Mikoto Theme
 
-Himi no Mikoto(緋彌之命)

@@ -4,7 +4,7 @@ compile_sass = true
 title = "mikoto theme"
 description = ""
 highlight_code = true
-highlight_theme = "monokai"
+highlight_theme = "one-dark"
 taxonomies = [
     {name = "categories", rss = true},
     {name = "tags", rss = true},
@@ -28,7 +28,7 @@ aplayer_background_server = "netease"
 aplayer_background_type = "album"
 aplayer_background_id = "82260016"
 
-live2d_enbale = true
+live2d_enable = true
 
 mathjax_enable = true
 # mathjax_cdn = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
