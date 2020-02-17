@@ -1,7 +1,6 @@
 +++
 title = "Ninth post"
-date = 2019-07-09
-[taxonomies]
+date = 2018-07-09
 categories = ["Odd"]
 tags = ["placeholder posts"]
 +++
