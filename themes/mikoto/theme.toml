@@ -3,11 +3,11 @@ description = "A robust, elegant dark theme"
 license = "MIT"
 homepage = ""
 min_version = "0.8.0"
-demo = ""
+demo = "https://zola-mikoto.netlify.com/"
 
 [author]
 name = "Aster"
-homepage = ""
+homepage = "https://zola-mikoto.netlify.com/"
 repo = "https://github.com/GalAster/zola-theme-mikoto"
 
 [original]
