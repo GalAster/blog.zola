@@ -1,5 +1,5 @@
 +++
-title = "Highlight Aegisub"
+title = "Highlight Lyric"
 date = 2018-07-06
 category = ["Highlight"]
 tags = ["lyric"]

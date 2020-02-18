@@ -1,4 +1,5 @@
 main {
+    width: $body-width;
     clear: both;
 
     .content {
@@ -23,6 +24,10 @@ main {
     .about,
     .post {
         -webkit-user-select: none;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         padding: 1.5rem 1.5rem;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
         border-color: rgba(0, 0, 0, 0.05);
@@ -231,6 +236,56 @@ main {
         }
     }
 
+    .footer-buttons {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 0;
+
+        .footer {
+            min-width: 180px;
+            height: 44px;
+            border-radius: 22px;
+            font-size: 16px;
+            line-height: 42px;
+            margin: 0 10px;
+        }
+    }
+
+    .footer {
+        height: 32px;
+        min-width: 88px;
+        padding: 0 16px;
+        background-color: $main-colour;
+        border: 1px solid transparent;
+        color: #fff;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        outline: 0;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+
+    .footer:hover {
+        text-decoration: none;
+        background-color: darken($main-colour, 10%);
+    }
+
+    .footer-weak {
+        background: 0 0;
+        border: 1px solid #dcdee6;
+        color: #666;
+        line-height: 30px;
+    }
+
+    .footer-weak:hover {
+        background: 0 0;
+        border: 1px solid #999;
+        color: #000;
+    }
+
     .post-labels {
         a {
             padding: 15px 0;
@@ -248,15 +303,24 @@ main {
             -ms-transition: all 0.2s ease-in-out;
             transition: all 0.2s ease-in-out;
         }
+
+        .category {
+            background: $main-colour;
+            color: #fff;
+            border: 1px solid $main-colour;
+        }
+        .category:hover {
+            background: darken($main-colour, 10%);
+            border: 1px solid darken($main-colour, 10%);
+        }
         .tag {
             background: #fff;
             color: $main-colour;
             border: 1px solid $main-colour;
         }
-        .category {
-            background: $main-colour;
-            color: #fff;
-            border: 1px solid $main-colour;
+        .tag:hover {
+            color: darken($main-colour, 10%);
+            border: 1px solid darken($main-colour, 25%);
         }
     }
 

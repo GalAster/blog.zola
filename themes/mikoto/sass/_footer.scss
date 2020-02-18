@@ -1,17 +1,19 @@
-#footer .container {
-    position: relative;
-    clear: both;
-    color: hsla(0, 0%, 100%, 0.4);
-    font-size: 14px;
-    background: #000;
-}
+#footer {
+    .container {
+        width: inherit;
+        position: relative;
+        clear: both;
+        color: hsla(0, 0%, 100%, 0.4);
+        font-size: 14px;
+        background: #000;
 
-#footer .container a {
-    color: hsla(0, 0%, 100%, 0.9);
-}
-
-#footer .container a:hover {
-    color: #9a69ec;
+        a {
+            color: hsla(0, 0%, 100%, 0.9);
+        }
+        a:hover {
+            color: #9a69ec;
+        }
+    }
 }
 
 #footer .container .footer-wrap {
