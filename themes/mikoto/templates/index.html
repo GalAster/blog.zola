@@ -44,8 +44,9 @@
 </head>
 
 <body>
+<a id="top"></>
 <div class="container">
-    {{ post_macros::fork_on_github(link="page") }}
+    {{ post_macros::fork_on_github(link=config.extra.github_link) }}
     <div id="mobile-navbar" class="mobile-navbar">
         <div class="mobile-header-logo">
             <a href="/" class="logo">{{ config.extra.mikoto_title }}</a>

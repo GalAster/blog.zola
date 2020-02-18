@@ -1,6 +1,6 @@
 +++
 title = "Highlight Aegisub"
-date = 2018-07-10
+date = 2017-07-10
 
 [taxonomies]
 categories = ["Highlight"]

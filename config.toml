@@ -21,6 +21,8 @@ extra_syntaxes = ["syntaxes"]
 author = "Aster"
 mikoto_title = "Mikoto"
 
+github_link = "https://github.com/GalAster/zola-theme-mikoto"
+
 # comment `enable` to close the plugin
 
 aplayer_enable = true
@@ -33,3 +35,4 @@ live2d_enable = true
 
 mathjax_enable = true
 katex_enalbe = false
+
