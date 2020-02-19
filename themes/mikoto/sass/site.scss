@@ -17,13 +17,13 @@ $code-colour: #c7254e;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
 $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 
-@mixin min-screen($min-width: $body-width) {
+@mixin desktop-screen($min-width: $body-width) {
     @media screen and (min-width: $min-width) {
         @content;
     }
 }
 
-@mixin max-screen($max-width: $body-width) {
+@mixin mobile-screen($max-width: $body-width) {
     @media screen and (max-width: $max-width) {
         @content;
     }

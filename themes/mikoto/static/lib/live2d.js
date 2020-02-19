@@ -5,7 +5,7 @@ const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
 
 
 // 加载 waifu.css live2d.min.js waifu-tips.js
-if (screen.width >= 768) {
+if (screen.width >= 1000) {
     Promise
         .all([
             loadExternalResource(live2d_path + "waifu.css", "css"),

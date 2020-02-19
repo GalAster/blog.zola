@@ -4,7 +4,7 @@ Promise.all(
     new Pjax({
         selectors: [
             // 这里填写需要重载的部分（和 CSS 选择器用法一样）
-            "main",
+            "main"
         ]
     });
     do_pjax()

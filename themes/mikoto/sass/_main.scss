@@ -1,10 +1,7 @@
 main {
-    width: $body-width;
+    // width: $body-width;
     clear: both;
 
-    .content {
-        padding: 0 20px;
-    }
 
     .posts {
         margin-bottom: 20px;
@@ -28,11 +25,6 @@ main {
             Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        padding: 1.5rem 1.5rem;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-        border-color: rgba(0, 0, 0, 0.05);
-        border-radius: 0.6rem;
-        margin-bottom: 1.5rem;
 
         .post__title {
             font-family: $decoration-font-family;
@@ -343,6 +335,33 @@ main {
     }
 }
 
+@include mobile-screen() {
+    main {
+        .post {
+            padding: 2rem 1rem;
+            box-shadow: 0px 2px 2px #f0f0f0;
+            border-color: rgba(0, 0, 0, 0.05);
+
+            // margin-bottom: 2rem;
+        }
+    }
+}
+
+@include desktop-screen() {
+    main {
+        .post {
+            padding: 1.5rem 1.5rem;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+            border-color: rgba(0, 0, 0, 0.05);
+            border-radius: 0.6rem;
+            margin-bottom: 1.5rem;
+        }
+        .content {
+            padding: 0 20px;
+        }
+    }
+}
+
 .next,
 .previous {
     font-weight: 600;
@@ -403,7 +422,7 @@ main {
 }
 
 .taxonomy {
-    margin: 2em 0;
+    margin: 2rem;
 
     &__item {
         padding: 3px 20px;
