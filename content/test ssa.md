@@ -4,7 +4,7 @@ date = 2017-07-10
 
 [taxonomies]
 categories = ["Highlight"]
-tags = ["subtitle", "aegisub"]
+tags = ["subtitle", "aegisub", "format"]
 +++
 
 
