@@ -54,7 +54,6 @@
         margin-top: 0;
         padding: 0;
 
-
         .mobile-menu-item {
             padding: 10px 30px;
             border-bottom: 1px solid $secondary-colour;
@@ -82,5 +81,17 @@
     }
     #waifu-toggle {
         display: none;
+    }
+}
+
+@include desktop-screen() {
+    .MathJax {
+        zoom: 115%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        zoom: 75%;
     }
 }
