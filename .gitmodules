@@ -1,0 +1,6 @@
+[submodule "themes/mikoto"]
+	path = themes/mikoto
+	url = https://github.com/GalAster/zola-theme-mikoto.git
+[submodule "source"]
+	path = source
+	url = https://github.com/GalAster/blog.source.git
