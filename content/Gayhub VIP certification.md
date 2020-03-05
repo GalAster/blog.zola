@@ -1,12 +1,12 @@
 +++
 title = "Gayhub 加V认证"
-date = 2020-03-01
+date = 2017-11-11
 [taxonomies]
 tags = ["github"]
 categories = ["Tutorial"]
 +++
 
-<p>任何社交网站都有大V, 那全球最大的同性交友网站自然也有咯.</p><p>大V当然要有独特的标记, Gayhub的标记是什么样的呢?</p><img src=" https://i.loli.net/2018/03/07/5a9fab23d67a8.png"><h2>Warning!!!</h2><p>首先警告一下这个东西超级麻烦, 以后每次提交都要输入 commit 密码</p><p>这还没完, 而且如果你使用 IDE 麻烦会平方.</p><p>另外这个无法补签... 你全绿漏一天你明年再接再厉吧...</p><p>Rebase 之后还丢失认证, 除非使用专用的变基技巧...</p><p>如果你确定你不怕麻烦就是要加V的话那我们开始吧!</p>
+<p>任何社交网站都有大V, 那全球最大的同性交友网站自然也有咯.</p><p>大V当然要有独特的标记, Gayhub的标记是什么样的呢?</p><img src="https://i.loli.net/2018/03/07/5a9fab23d67a8.png"><h2>Warning!!!</h2><p>首先警告一下这个东西超级麻烦, 以后每次提交都要输入 commit 密码</p><p>这还没完, 而且如果你使用 IDE 麻烦会平方.</p><p>另外这个无法补签... 你全绿漏一天你明年再接再厉吧...</p><p>Rebase 之后还丢失认证, 除非使用专用的变基技巧...</p><p>如果你确定你不怕麻烦就是要加V的话那我们开始吧!</p>
 
 <!-- more -->
 
@@ -76,13 +76,13 @@ git config commit.gpgsign false```
 ```
 git config --global gpg.program "C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe"```
 
-<p>还没完, 打开那个 Kleopatra 软件, 导入你的秘钥.</p><p>然后你可以去你的 IDE 里点 push 了, 每次commit都要输密码了.</p><p>如果你还是有问题, 那么可以手动更改全局设定</p><img src=" https://i.loli.net/2018/03/07/5a9fae742cce1.png"><h3>Linux 用户</h3><p>虽然 Linux 动手能力很强, 但是这个还是不太好找的</p><p>解决方案: <a href="https://youtrack.jetbrains.com/oauth?state=%2Fissue%2FIDEA-127802">Jetbrains: GPG in Linux</a></p><p><code>git config --global gpg.program /usr/local/bin/gpg</code></p><p>然后新建一个bash脚本放在 <code>/usr/local/bin/gpg</code></p>
+<p>还没完, 打开那个 Kleopatra 软件, 导入你的秘钥.</p><p>然后你可以去你的 IDE 里点 push 了, 每次commit都要输密码了.</p><p>如果你还是有问题, 那么可以手动更改全局设定</p><img src="https://i.loli.net/2018/03/07/5a9fae742cce1.png"><h3>Linux 用户</h3><p>虽然 Linux 动手能力很强, 但是这个还是不太好找的</p><p>解决方案: <a href="href=\"https://youtrack.jetbrains.com/oauth?state=%2Fissue%2FIDEA-127802\"">Jetbrains: GPG in Linux</a></p><p><code>git config --global gpg.program /usr/local/bin/gpg</code></p><p>然后新建一个bash脚本放在 <code>/usr/local/bin/gpg</code></p>
 
 ```sh
 #!/bin/bash
 /usr/bin/gpg --batch --no-tty "$@"```
 
-<h3>Mac 用户</h3><p>本来对 Mac 用户要收费的, 但我干掉了这个难题心情不错, 附赠的...</p><p>解决方案: <a href="https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0">Stackoverflow: GPG on Mac</a></p>
+<h3>Mac 用户</h3><p>本来对 Mac 用户要收费的, 但我干掉了这个难题心情不错, 附赠的...</p><p>解决方案: <a href="href=\"https://stackoverflow.com/questions/39494631/gpg-failed-to-sign-the-data-fatal-failed-to-write-commit-object-git-2-10-0\"">Stackoverflow: GPG on Mac</a></p>
 
 ```sh
 brew install pinentry-mac

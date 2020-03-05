@@ -1,6 +1,6 @@
 +++
 title = "Anaconda 安装教程"
-date = 2020-03-01
+date = 2018-02-23
 [taxonomies]
 tags = ["python", "anaconda"]
 categories = ["Tutorial"]

@@ -5,8 +5,9 @@
         "pre": "cargo test --color=always --no-run --package notedown-parser --lib pre_build && cargo fmt --all",
         "build": "notedown_zola && zola build",
         "test": "cargo build",
-        "dev": "notedown_zola && zola serve",
-        "push": "yarn test && git push",
+        "dev": "yarn zola",
+        "zola": "notedown_zola && zola serve",
+        "push": "git push",
         "reset": "git reset Head~ --soft",
         "sync": "git submodule update --remote"
     }

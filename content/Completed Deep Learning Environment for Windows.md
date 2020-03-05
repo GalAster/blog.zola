@@ -1,6 +1,6 @@
 +++
 title = "Windows 全深度学习环境安装"
-date = 2020-03-01
+date = 2019-03-07
 [taxonomies]
 tags = ["windows", "torch", "tensorflow", "mxnet"]
 categories = ["Deep Learning"]

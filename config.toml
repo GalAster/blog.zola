@@ -1,4 +1,4 @@
-base_url = "https://ea.chat/"
+base_url = "https://ea.chat"
 title = "mikoto theme"
 description = ""
 compile_sass = true
