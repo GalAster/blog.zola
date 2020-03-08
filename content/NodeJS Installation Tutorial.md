@@ -6,8 +6,6 @@ tags = ["javascript", "nodejs"]
 categories = ["Tutorial"]
 +++
 
-
-
-```sh
-npm config set registry https://registry.npm.taobao.org --global
-npm config set disturl https://npm.taobao.org/dist --global```
+<pre style="background-color:#2b303b;">
+<span style="color:#eb6772;">npm</span><span style="color:#abb2bf;"> config set registry https://registry.npm.taobao.org</span><span style="color:#eb6772;"> --global
+</span><span style="color:#eb6772;">npm</span><span style="color:#abb2bf;"> config set disturl https://npm.taobao.org/dist</span><span style="color:#eb6772;"> --global</span></pre>
